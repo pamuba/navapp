@@ -11,7 +11,7 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 5
     },
     "assetBundlePatterns": [
       "**/*"
@@ -23,10 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "package": "com.pamuba24.navapp"
     }
   }
 }
